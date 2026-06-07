@@ -12,7 +12,7 @@ public class largest3Num {
         b = sc.nextInt();
         System.out.println("Enter 3rd number: ");
         c = sc.nextInt();
-        largest = (a > b ) ? ((a > c) ? a : c) : ((b > c) ? b : c);
-        System.out.println("Largest number is: " +largest);
+        largest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+        System.out.println("Largest number is: " + largest);
     }
 }

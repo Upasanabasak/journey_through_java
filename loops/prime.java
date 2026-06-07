@@ -8,14 +8,14 @@ public class prime {
         int n, i, sum = 0;
         System.out.println("Enter a number: ");
         n = sc.nextInt();
-        for(i = 1; i <= n / 2; i++) {
-            if(n % i == 0) {
+        for (i = 1; i <= n / 2; i++) {
+            if (n % i == 0) {
                 sum += i;
             }
         }
-        if(sum == n)
-            System.out.println(n+ " is a perfect number.");
+        if (sum == n)
+            System.out.println(n + " is a perfect number.");
         else
-            System.out.println(n+ " is not a perfect number.");
+            System.out.println(n + " is not a perfect number.");
     }
 }

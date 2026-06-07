@@ -9,21 +9,21 @@ public class armstrong {
         System.out.println("Enter a number: ");
         n = sc.nextInt();
         temp = n;
-        while(n > 0) {
+        while (n > 0) {
             count++;
             n /= 10;
         }
         // System.out.println(+count);
         n = temp;
-        while(n > 0) {
+        while (n > 0) {
             digit = n % 10;
-            sum += Math.pow(digit,count);
+            sum += Math.pow(digit, count);
             n /= 10;
         }
         n = temp;
-        if( n == sum)
-            System.out.println(sum+ " is an armstrong number.");
+        if (n == sum)
+            System.out.println(sum + " is an armstrong number.");
         else
-            System.out.println(sum+ " is not an armstrong number.");
+            System.out.println(sum + " is not an armstrong number.");
     }
 }

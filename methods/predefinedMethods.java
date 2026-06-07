@@ -11,10 +11,10 @@ public class predefinedMethods {
         System.out.println(name);
 
         // length()
-        System.out.println("Length of name: " +name.length());
+        System.out.println("Length of name: " + name.length());
 
         // toUpperCase
-        System.out.println("Upper case: " +name.toUpperCase());
+        System.out.println("Upper case: " + name.toUpperCase());
 
         System.out.println(a1.equalsIgnoreCase(a2));
     }

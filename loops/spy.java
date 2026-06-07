@@ -9,15 +9,15 @@ public class spy {
         System.out.println("Enter a number: ");
         n = sc.nextInt();
         temp = n;
-        while(n > 0) {
+        while (n > 0) {
             digit = n % 10;
             sum += digit;
             product *= digit;
             n /= 10;
         }
-        if(sum == product ) 
-            System.out.println(temp+ " is a spy number.");
+        if (sum == product)
+            System.out.println(temp + " is a spy number.");
         else
-            System.out.println(temp+ " is not a spy number.");
+            System.out.println(temp + " is not a spy number.");
     }
 }

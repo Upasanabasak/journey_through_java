@@ -7,6 +7,6 @@ public class arithmetic {
         int a = 10, b = 20;
         int c = a + b;
         System.err.println("Addition: " + c);
-        System.out.println("Subtraction: "+ (a - b));
+        System.out.println("Subtraction: " + (a - b));
     }
 }

@@ -22,7 +22,7 @@ public class prog5 {
             case '/':
                 System.out.println("Division of the values" + (a / b));
                 break;
-        
+
             default:
                 System.err.println("Wrong Operator");
                 break;
